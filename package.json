@@ -153,8 +153,5 @@
       "prechangelog": "sed -e '1,6d' -i CHANGELOG.md",
       "postchangelog": "sed -e 's/###\\ \\[/##\\ \\[v/g' -i CHANGELOG.md && sed -re 's/##\\ \\[([0-9])/##\\ \\[v\\1/g' -i CHANGELOG.md"
     }
-  },
-  "engines": {
-    "node": "^20 <21"
   }
 }
