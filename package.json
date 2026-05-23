@@ -13,7 +13,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "test:cov": "vitest --coverage",
-    "commit": "git-cz",
+    "commit": "czg",
     "stylelint": "stylelint \"**/*.{scss,css}\" --ignore-path .gitignore",
     "prettier": "prettier . \"!**/*.webmanifest\" --write",
     "eslint": "eslint --ext \".js\" --ignore-path .gitignore",
@@ -36,11 +36,7 @@
     "@vitest/coverage-v8": "^4.1.7",
     "autoprefixer": "^10.5.0",
     "commit-and-tag-version": "^12.7.3",
-    "commitizen": "^4.3.1",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
+    "czg": "^1.13.1",
     "jsdom": "^29.1.1",
     "prettier": "^3.8.3",
     "sass-embedded": "^1.100.0",
@@ -49,11 +45,6 @@
     "vite": "^8.0.14",
     "vite-plugin-markdown": "^2.2.0",
     "vitest": "^4.1.7"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   },
   "eslintConfig": {
     "parser": "@babel/eslint-parser",
