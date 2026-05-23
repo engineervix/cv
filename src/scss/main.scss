@@ -494,11 +494,11 @@ main {
 
   h2,
   h3 {
-    page-break-after: avoid;
+    break-after: avoid;
   }
 
   table,
   figure {
-    page-break-inside: avoid;
+    break-inside: avoid;
   }
 }
