@@ -26,7 +26,7 @@ export function processTimelineEntries(doc) {
     const entryMatch = heading.innerHTML.match(/^(.*?) \[([^\]]+)\] \| (.+)$/)
     if (!entryMatch) return
 
-    const [_, title, period, organization] = entryMatch
+    const [, title, period, organization] = entryMatch
 
     heading.innerHTML = title
     heading.className = 'timeline-entry'
